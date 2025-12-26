@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hinglish Next-Word Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hinglish Next-Word Prediction</h1>
+            <p class="subtitle">Type in Hinglish and get real-time word suggestions</p>
+        </header>
+        
+        <div class="input-container">
+            <div class="input-wrapper">
+                <textarea 
+                    id="textInput" 
+                    placeholder="Type your Hinglish text here... (e.g., 'main kal college')"
+                    rows="4"
+                ></textarea>
+                <div id="suggestions" class="suggestions"></div>
+            </div>
+        </div>
+        
+        <div class="info">
+            <p><strong>Tips:</strong></p>
+            <ul>
+                <li>Press <kbd>Tab</kbd> to accept the first suggestion</li>
+                <li>Click on any suggestion to insert it</li>
+                <li>Use arrow keys to navigate suggestions (coming soon)</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
